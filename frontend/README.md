@@ -1,10 +1,19 @@
-# Getting Started with Create React App
+# A Vectorshift clone that uses pure react to build a workflow generator similar to vectorshift's.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ Frontend Dependencies:-
+
+-> Tailwind CSS
+-> Framer motion
+-> Zustand (i 💖 zustand now) 
+
+Backend Info :-
+
+A simple backend built on FastAPI that accepts a request from the client (number of nodes, edges),
+performs DFS to check if it is an DAG and returns the response.
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory (for the frontend), you can run:
 
 ### `npm start`
 
